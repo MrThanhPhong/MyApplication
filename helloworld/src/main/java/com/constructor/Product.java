@@ -11,7 +11,10 @@ public class Product {
 
 
 
-
+    public Product(String name)
+    {
+     setName(name);
+    }
 
     public String getName() {
         return name;
