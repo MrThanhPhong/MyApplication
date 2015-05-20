@@ -6,11 +6,8 @@ package com.constructor;
 public class Product {
 
     private String name  = "" ;
-
-
-
-
-
+    private int id  = 0 ;
+    
     public Product(String name)
     {
      setName(name);
